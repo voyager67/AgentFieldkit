@@ -290,3 +290,15 @@ AgentFieldkit is released under the [MIT License](LICENSE). The skills and tooli
   <hr />
   <sub><strong>AgentFieldkit</strong> · Equip your agents. Raise the standard.</sub>
 </div>
+<p align="center">
+  <a href="https://github.com/voyager67/AgentFieldkit/stargazers">
+    <img src="https://img.shields.io/github/stars/voyager67/AgentFieldkit?style=for-the-badge&logo=github&label=STARS" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/voyager67/AgentFieldkit/network/members">
+    <img src="https://img.shields.io/github/forks/voyager67/AgentFieldkit?style=for-the-badge&logo=github&label=FORKS" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/voyager67/AgentFieldkit/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/voyager67/AgentFieldkit?style=for-the-badge&label=LICENSE" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/SKILLS-25-7C6CFF?style=for-the-badge" alt="25 Skills">
+</p>
