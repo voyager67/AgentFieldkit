@@ -1,0 +1,132 @@
+{
+  "name": "AgentFieldkit",
+  "format": "Agent Skills / SKILL.md",
+  "skill_count": 25,
+  "skills": [
+    {
+      "name": "repo-scout",
+      "category": "Orientation",
+      "description": "Map an unfamiliar codebase before changing it. Use when joining a repository, debugging an unclear subsystem, or planning work that depends on understanding project structure."
+    },
+    {
+      "name": "spec-first",
+      "category": "Planning",
+      "description": "Turn a feature request into testable acceptance criteria and a small implementation plan before editing. Use when requirements are ambiguous, a task spans several files, or a change may affect existing behavior."
+    },
+    {
+      "name": "test-driven-change",
+      "category": "Implementation",
+      "description": "Implement a behavior change with tests that demonstrate the requirement and protect regressions. Use for bug fixes, new features, and changes with observable inputs and outputs."
+    },
+    {
+      "name": "failure-forensics",
+      "category": "Debugging",
+      "description": "Diagnose a reproducible software failure by narrowing symptoms to a root cause and verifying the repair. Use for crashes, incorrect results, flaky tests, and hard-to-explain regressions."
+    },
+    {
+      "name": "review-lens",
+      "category": "Quality",
+      "description": "Review a diff for actionable correctness, security, reliability, and maintainability defects. Use before merging a change or when asked for an independent code review."
+    },
+    {
+      "name": "security-surface",
+      "category": "Security",
+      "description": "Perform a focused threat review of code, APIs, configuration, and dependencies. Use when a change touches authentication, authorization, uploads, external input, secrets, payments, or sensitive data."
+    },
+    {
+      "name": "dependency-care",
+      "category": "Maintenance",
+      "description": "Evaluate dependency updates and vulnerabilities without creating avoidable breakage. Use when upgrading packages, responding to advisories, or cleaning dependency drift."
+    },
+    {
+      "name": "performance-proof",
+      "category": "Performance",
+      "description": "Find and validate a measurable performance bottleneck before optimizing. Use when latency, throughput, memory use, render speed, or compute cost is a concern."
+    },
+    {
+      "name": "api-contract-check",
+      "category": "Architecture",
+      "description": "Check API and schema changes for compatibility with existing clients and stored data. Use when editing public endpoints, CLI flags, event payloads, database schemas, or serialized formats."
+    },
+    {
+      "name": "docs-sync",
+      "category": "Documentation",
+      "description": "Bring documentation, examples, and configuration guides into agreement with the actual code. Use after behavior changes or when instructions may have drifted."
+    },
+    {
+      "name": "data-quality-gate",
+      "category": "Data & AI",
+      "description": "Design validation checks for structured datasets and data pipelines. Use when ingesting, transforming, joining, exporting, or versioning data used by software or machine-learning systems."
+    },
+    {
+      "name": "dataset-workshop",
+      "category": "Data & AI",
+      "description": "Prepare consistent, traceable instruction-tuning or evaluation datasets with reproducible cleaning rules. Use for JSONL corpora, reasoning examples, SFT data, or team-based dataset contributions."
+    },
+    {
+      "name": "experiment-ledger",
+      "category": "Data & AI",
+      "description": "Make ML training experiments reproducible and comparable. Use when fine-tuning models, comparing hyperparameters, changing datasets, or sharing GPU resources across contributors."
+    },
+    {
+      "name": "model-eval-design",
+      "category": "Data & AI",
+      "description": "Build an evaluation plan that measures a model capability rather than a single attractive example. Use when comparing base and fine-tuned models, reasoning systems, prompts, or agent workflows."
+    },
+    {
+      "name": "model-diff-review",
+      "category": "Data & AI",
+      "description": "Compare two model checkpoints or prompt configurations using a consistent evaluation harness and error taxonomy. Use after fine-tuning, quantization, prompt edits, or inference-stack changes."
+    },
+    {
+      "name": "safe-migration",
+      "category": "Architecture",
+      "description": "Plan and execute a controlled migration of code, schemas, frameworks, or configuration while preserving a rollback path. Use when changing formats, APIs, databases, runtimes, or major dependencies."
+    },
+    {
+      "name": "build-rescue",
+      "category": "Delivery",
+      "description": "Investigate and repair a failing build or CI job from logs to a verified fix. Use when compilers, linters, tests, containers, or CI workflows break."
+    },
+    {
+      "name": "release-readiness",
+      "category": "Delivery",
+      "description": "Assess whether a change is ready for a tagged release or deployment. Use before publishing a package, shipping a production build, or announcing a new version."
+    },
+    {
+      "name": "context-handoff",
+      "category": "Collaboration",
+      "description": "Create a reliable handoff note so another engineer or coding agent can continue work without redoing exploration. Use before switching sessions, handing off a long task, or pausing midway."
+    },
+    {
+      "name": "multi-agent-crosscheck",
+      "category": "Collaboration",
+      "description": "Use independent reviewers or model providers to challenge a plan or diff and synthesize evidence-based disagreement. Use for high-impact, ambiguous, or research-heavy decisions when multiple agents are actually available."
+    },
+    {
+      "name": "change-narrative",
+      "category": "Collaboration",
+      "description": "Write a useful pull request or change summary that leads with the problem, impact, and proof. Use when preparing a handoff, code review request, release note, or engineering change record."
+    },
+    {
+      "name": "parallel-task-design",
+      "category": "Collaboration",
+      "description": "Break a multi-part engineering task into safely parallel work units with clear ownership and integration points. Use when several agents or contributors can work concurrently."
+    },
+    {
+      "name": "sql-integrity-check",
+      "category": "Data & AI",
+      "description": "Review SQL queries and data-model changes for correctness, access scope, safe parameterization, and performance. Use when writing joins, filters, migrations, reports, or analytics queries."
+    },
+    {
+      "name": "research-evidence-map",
+      "category": "Research",
+      "description": "Turn a technical research question into a traceable evidence map with source quality, uncertainty, and actionable next experiments. Use for model architecture choices, benchmark claims, library selection, and unfamiliar technical topics."
+    },
+    {
+      "name": "agent-skill-audit",
+      "category": "Tooling",
+      "description": "Validate a skill library for metadata correctness, discoverability, duplicate naming, risky instructions, and portability. Use when adding, reviewing, packaging, or publishing agent skills."
+    }
+  ]
+}
