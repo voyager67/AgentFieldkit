@@ -3,19 +3,18 @@
   <h1>AgentFieldkit</h1>
   <p><strong>Equip your agents. Raise the standard.</strong></p>
   <p>An open-source field kit of 25 evidence-first workflows for software engineering, security, AI/ML research, and multi-agent collaboration.</p>
-  <p>
-    <a href="https://github.com/voyager67/agent-fieldkit/stargazers"><img src="https://img.shields.io/github/stars/voyager67/agent-fieldkit?style=for-the-badge&logo=github&label=STARS" alt="GitHub stars" /></a>
-    <a href="https://github.com/voyager67/agent-fieldkit/network/members"><img src="https://img.shields.io/github/forks/voyager67/agent-fieldkit?style=for-the-badge&logo=github&label=FORKS" alt="GitHub forks" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-36B37E?style=for-the-badge" alt="MIT license" /></a>
-    <a href=".github/workflows/validate-skills.yml"><img src="https://img.shields.io/github/actions/workflow/status/voyager67/agent-fieldkit/validate-skills.yml?branch=main&style=for-the-badge&label=QUALITY%20CHECKS" alt="Quality checks" /></a>
-    <img src="https://img.shields.io/badge/skills-25-6C63FF?style=for-the-badge" alt="25 skills" />
-  </p>
-  <p>
-    <a href="#quick-start"><strong>Get started</strong></a> ·
-    <a href="#the-skill-library">Explore the skills</a> ·
-    <a href="CONTRIBUTING.md">Contribute</a> ·
-    <a href="https://github.com/voyager67/agent-fieldkit/issues">Request a skill</a>
-  </p>
+ <p align="center">
+  <a href="https://github.com/voyager67/AgentFieldkit/stargazers">
+    <img src="https://img.shields.io/github/stars/voyager67/AgentFieldkit?style=for-the-badge&logo=github&label=STARS" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/voyager67/AgentFieldkit/network/members">
+    <img src="https://img.shields.io/github/forks/voyager67/AgentFieldkit?style=for-the-badge&logo=github&label=FORKS" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/voyager67/AgentFieldkit/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/voyager67/AgentFieldkit?style=for-the-badge&label=LICENSE" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/SKILLS-25-7C6CFF?style=for-the-badge" alt="25 Skills">
+</p>
 </div>
 
 ---
