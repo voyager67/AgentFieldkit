@@ -134,8 +134,8 @@ Browse the machine-readable [`skills-index.json`](skills-index.json) or inspect 
 ### 1. Get AgentFieldkit
 
 ```bash
-git clone https://github.com/voyager67/agent-fieldkit.git
-cd agent-fieldkit
+git clone https://github.com/voyager67/AgentFieldkit.git
+cd AgentFieldkit
 ```
 
 Requires **Python 3.10+**. The validator, installer, and ZIP packager use only Python's standard library.
